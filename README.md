@@ -60,11 +60,12 @@ These are the base files for the Framework. The Data and Lib are the functioning
 #### **Modules**
 The Modules detailed above are split into separate categories in this folder. We will go into detail about these in the next sections. They are contained in the following folders:
 
-...`
   Modules
+  ...`
 anubhavde@htb[/htb]$ ls /usr/share/metasploit-framework/modules
 
 auxiliary  encoders  evasion  exploits  nops  payloads  post
+...`
 Plugins
 Plugins offer the pentester more flexibility when using the msfconsole since they can easily be manually or automatically loaded as needed to provide extra functionality and automation during our assessment.
 
