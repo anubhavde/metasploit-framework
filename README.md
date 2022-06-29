@@ -8,12 +8,12 @@ Its strong suit is that it provides a plethora of available targets and versions
 
 ### **Metasploit Pro**
 Metasploit as a product is split into two versions. The Metasploit Pro version is different from the Metasploit Framework one with some additional features:
-..*Task Chains
-..*Social Engineering
-..*Vulnerability Validations
-..*GUI
-..*Quick Start Wizards
-..*Nexpose Integration
+- Task Chains
+- Social Engineering
+- Vulnerability Validations
+- GUI
+- Quick Start Wizards
+- Nexpose Integration
 If you're more of a command-line user and prefer the extra features, the Pro version also contains its own console, much like msfconsole.
 To have a general idea of what Metasploit Pro's newest features can achieve, check out the list below:
 
