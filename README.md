@@ -19,10 +19,10 @@ If you're more of a command-line user and prefer the extra features, the Pro ver
 To have a general idea of what Metasploit Pro's newest features can achieve, check out the list below:
 
 **Infiltrate	        Collect Data	                 Remediate**
-Manual Exploitation	Import and Scan Data	         Bruteforce
-Anti-virus Evasion	Discovery Scans	                 Task Chains
-IPS/IDS Evasion	        Meta-Modules	                 Exploitation Workflow
-Proxy Pivot	        Nexpose Scan Integration	 Session Rerun
+Manual Exploitation	  Import and Scan Data	         Bruteforce
+Anti-virus Evasion	  Discovery Scans	               Task Chains
+IPS/IDS Evasion	      Meta-Modules	                 Exploitation Workflow
+Proxy Pivot	          Nexpose Scan Integration	     Session Rerun
 Post-Exploitation		                         Task Replay
 Session Clean-up		                         Project Sonar Integration
 Credentials Reuse		                         Session Management
@@ -39,32 +39,28 @@ Persistent Sessions		                         Tagging Data
 The msfconsole is probably the most popular interface to the Metasploit Framework (MSF). It provides an "all-in-one" centralized console and allows you efficient access to virtually all options available in the MSF. Msfconsole may seem intimidating at first, but once you learn the syntax of the commands, you will learn to appreciate the power of utilizing this interface.
 
 The features that msfconsole generally brings are the following:
-
-It is the only supported way to access most of the features within Metasploit
-
-Provides a console-based interface to the Framework
-
-Contains the most features and is the most stable MSF interface
-
-Full readline support, tabbing, and command completion
-
-Execution of external commands in msfconsole
+- It is the only supported way to access most of the features within Metasploit.
+- Provides a console-based interface to the Framework.
+- Contains the most features and is the most stable MSF interface.
+- Full readline support, tabbing, and command completion.
+- Execution of external commands in msfconsole.
 
 Both products mentioned above come with an extensive database of available modules to use in our assessments. These, combined with the use of external commands such as scanners, social engineering toolkits, and payload generators, can turn our setup into a ready-to-strike machine that will allow us to seamlessly control and manipulate different vulnerabilities in the wild with the use of sessions and jobs in the same way we would see tabs on an Internet browser.
 
 The key term here is usability—user experience. The ease with which we can control the console can improve our learning experience. Therefore, let us delve into the specifics.
 
-Understanding the Architecture
+### **Understanding the Architecture**
 To fully operate whatever tool we are using, we must first look under its hood. It is good practice, and it can offer us better insight into what will be going on during our security assessments when that tool comes into play. It is essential not to have any wildcards that might leave you or your client exposed to data breaches.
 
 By default, all the base files related to Metasploit Framework can be found under /usr/share/metasploit-framework in our ParrotOS Security distro.
 
-Data, Documentation, Lib
+#### **Data, Documentation, Lib**
 These are the base files for the Framework. The Data and Lib are the functioning parts of the msfconsole interface, while the Documentation folder contains all the technical details about the project.
 
-Modules
+#### **Modules**
 The Modules detailed above are split into separate categories in this folder. We will go into detail about these in the next sections. They are contained in the following folders:
 
+"""
   Modules
 anubhavde@htb[/htb]$ ls /usr/share/metasploit-framework/modules
 
@@ -98,3 +94,4 @@ anubhavde@htb[/htb]$ ls /usr/share/metasploit-framework/tools/
 
 context  docs     hardware  modules   payloads
 dev      exploit  memdump   password  recon
+"""
