@@ -86,3 +86,5 @@
 | `timestomp`                                                 | Change file attributes, such as creation date (antiforensics measure). |
 | `reboot`                                                    | Reboot the target machine.                                   |
 |                                                             |                                                              |
+
+  Taken from academy.hackthebox.com
