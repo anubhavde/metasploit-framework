@@ -109,7 +109,7 @@ To start interacting with the Metasploit Framework, we need to type msfconsole i
 Upon launching the msfconsole, we are met with their coined splash art and the command line prompt, waiting for our first command.
 
 #### **Launching MSFconsole**
-#### Launching MSFconsole
+##### Launching MSFconsole
 ```console
 anubhavde@htb[/htb]$ msfconsole
                                                   
@@ -159,7 +159,7 @@ msf6 >
 ```
 
 Alternatively, we can use the -q option, which does not display the banner.
-#### Launching MSFconsole
+##### Launching MSFconsole
 ```console
 anubhavde@htb[/htb]$ msfconsole -q
 
@@ -171,7 +171,7 @@ To better look at all the available commands, we can type the help command. Firs
 The old way would have been to run msfupdate in our OS terminal (outside msfconsole). However, the apt package manager can currently handle the update of modules and features effortlessly.
 
 ### **Installing MSF**
-#### Installing MSF
+##### Installing MSF
 ```console
 anubhavde@htb[/htb]$ sudo apt update && sudo apt install metasploit-framework
 
