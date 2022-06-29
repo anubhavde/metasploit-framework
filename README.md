@@ -60,7 +60,7 @@ These are the base files for the Framework. The Data and Lib are the functioning
 #### **Modules**
 The Modules detailed above are split into separate categories in this folder. We will go into detail about these in the next sections. They are contained in the following folders:
 
-"""
+...`
   Modules
 anubhavde@htb[/htb]$ ls /usr/share/metasploit-framework/modules
 
@@ -94,4 +94,4 @@ anubhavde@htb[/htb]$ ls /usr/share/metasploit-framework/tools/
 
 context  docs     hardware  modules   payloads
 dev      exploit  memdump   password  recon
-"""
+...`
