@@ -6,7 +6,7 @@ The modules mentioned are actual exploit proof-of-concepts that have already bee
 
 Its strong suit is that it provides a plethora of available targets and versions, all a few commands away from a successful foothold. These, combined with an exploit tailor-made to those vulnerable versions and with a payload that is sent after the exploit, which will give us actual access into the system, provide us with an easy, automated way to switch between target connections during our post-exploitation ventures.
 
-**Metasploit Pro**
+### **Metasploit Pro**
 Metasploit as a product is split into two versions. The Metasploit Pro version is different from the Metasploit Framework one with some additional features:
 ..*Task Chains
 ..*Social Engineering
@@ -34,7 +34,7 @@ Phishing Wizard		                                 Evidence Collection
 Web App Testing		                                 Reporting
 Persistent Sessions		                         Tagging Data
 
-**Metasploit Framework Console**
+### **Metasploit Framework Console**
 The msfconsole is probably the most popular interface to the Metasploit Framework (MSF). It provides an "all-in-one" centralized console and allows you efficient access to virtually all options available in the MSF. Msfconsole may seem intimidating at first, but once you learn the syntax of the commands, you will learn to appreciate the power of utilizing this interface.
 
 The features that msfconsole generally brings are the following:
