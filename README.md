@@ -19,6 +19,7 @@ If you're more of a command-line user and prefer the extra features, the Pro ver
 To have a general idea of what Metasploit Pro's newest features can achieve, check out the list below:
 
 |**Infiltrate	          |Collect Data	                 |Remediate**
+|-----------------------|------------------------------|-------------------------
 |Manual Exploitation	  |Import and Scan Data	         |Bruteforce
 |Anti-virus Evasion	    |Discovery Scans	             |Task Chains
 |IPS/IDS Evasion	      |Meta-Modules	                 |Exploitation Workflow
