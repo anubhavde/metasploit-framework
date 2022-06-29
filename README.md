@@ -18,7 +18,7 @@ Metasploit as a product is split into two versions. The Metasploit Pro version i
 If you're more of a command-line user and prefer the extra features, the Pro version also contains its own console, much like msfconsole.
 To have a general idea of what Metasploit Pro's newest features can achieve, check out the list below:
 
-|**Infiltrate	          |Collect Data	                 |Remediate**
+|INFILTRATE  	          |COLLECT DATA	                 |REMEDIATE
 |-----------------------|------------------------------|-------------------------
 |Manual Exploitation	  |Import and Scan Data	         |Bruteforce
 |Anti-virus Evasion	    |Discovery Scans	             |Task Chains
